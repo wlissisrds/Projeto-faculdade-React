@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(236, 236, 236, 0.829);
+
+}
+#reservar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+form {
+    width: 70%;
+}
+
+#num-cartao{
+
+}
+#titular{}
+#validade input{width: 98%;}
+#cod input{width: 100%;}
+
+
+#form-row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#btn-form input{
+    margin: 10px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: rgb(73, 131, 255);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#btn-form a {
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    color: rgb(73, 131, 255);
+    border-radius: 5px;
+    padding: 8px;
+}
+#btn-form a:hover {
+    font-weight: bold;
+    font-size: 16px;
+} 
